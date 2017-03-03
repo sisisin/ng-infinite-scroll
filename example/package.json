@@ -1,0 +1,28 @@
+{
+  "name": "ng-infinite-scroll-example",
+  "version": "1.0.0",
+  "description": "ng-infinite-scroll example",
+  "scripts": {
+    "build": "webpack",
+    "serve": "lite-server"
+  },
+  "keywords": [],
+  "author": "sisisin",
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/common": "~2.4.0",
+    "@angular/compiler": "~2.4.0",
+    "@angular/core": "~2.4.0",
+    "@angular/platform-browser": "~2.4.0",
+    "@angular/platform-browser-dynamic": "~2.4.0",
+    "@sisisin/ng-infinite-scroll": "file:../",
+    "core-js": "^2.4.1",
+    "lite-server": "^2.2.2",
+    "rxjs": "5.0.1",
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2",
+    "webpack": "^2.2.1",
+    "zone.js": "^0.7.4"
+  },
+  "repository": {}
+}
