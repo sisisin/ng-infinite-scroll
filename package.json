@@ -1,6 +1,6 @@
 {
   "name": "@sisisin/ng-infinite-scroll",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "git@github.com:sisisin/ng-infinite-scroll.git",
@@ -17,6 +17,7 @@
   },
   "scripts": {
     "build": "ngc -p tsconfig.json",
-    "clean": "rm -rf aot/ dist/"
+    "clean": "rm -rf aot/ dist/",
+    "prepublish": "npm run clean && npm run build"
   }
 }
