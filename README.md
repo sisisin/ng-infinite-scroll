@@ -27,13 +27,18 @@ Last, using your component.
   selector: 'my-app',
   template: `
 <div style="height: 300px; width: 300px;">
-  <infinite-scroll [items]="items" [onAdd]="onAdd" [loadHeight]="40">
+  <infinite-scroll [onAdd]="onAdd" [loadHeight]="40">
+    <div items *ngFor="let num of nums">{{num}}</div>
     <div loading>now loading...</div>
   </infinite-scroll>
 </div>`,
 })
 export class AppComponent {
-
+  onAdd = () => {
+    // on add action.
+    // you can return Promise | Observable
+  }
+}
 ```
 
 # Example
